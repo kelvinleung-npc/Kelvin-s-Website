@@ -1,0 +1,107 @@
+body {
+  margin:0;
+}
+.opener{
+
+  background-image: url("greece.jpg");
+  margin: 0px;
+  padding:0px;
+  border: 0px;
+  height: 800px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.openingText{
+  
+  margin:0px;
+  padding:0px;
+  border:0px;
+  color:aliceblue;
+  font-size: 75px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.introText{
+  color:aliceblue;
+  font-size: 40px;
+  text-align: center;
+}
+
+.remainingSection{
+  background-color: black;
+  margin: 0px;
+  padding:0px;
+  border: 0px;
+  height: 2400px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  position: relative;
+
+}
+
+.img {
+  border-radius: 10px;
+  width: 150px;
+  height: 200px;
+  float:left;
+  margin-right: 3%;
+  margin-bottom:5%;
+}
+
+.img2 {
+  border-radius: 10px;
+  width: 150px;
+  height: 200px;
+  float:left;
+  margin-right: 3%;
+  margin-bottom:24%;
+}
+.Text{
+  color:aliceblue;
+  font-size: 20px;
+}
+
+.AboutMe{
+  width: 50%;
+  
+  position: absolute; 
+  top: 5%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.Education{
+  width: 50%;
+  
+  position: absolute; 
+  top: 20%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.Certifications{
+  width: 50%;
+  
+  position: absolute; 
+  top: 35%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.WorkExperience{
+  width: 50%;
+  
+  position: absolute; 
+  top: 55%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
